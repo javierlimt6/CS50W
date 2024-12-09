@@ -1,0 +1,47 @@
+/* Basic reset and general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+div {
+  background-color: #dd1a1a;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+}
