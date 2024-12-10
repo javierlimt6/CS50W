@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="search.css" />
+  </head>
+  <body>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"
+      alt="Google"
+    />
+    <form action="https://google.com/search">
+      <input type="text" name="q" />
+      <div>
+        <input type="hidden" name="tbm" value="isch" />
+        <input type="submit" class="search-button" value="Image Search" />
+      </div>
+    </form>
+    <nav class="nav-links">
+      <input
+        type="button"
+        value="Google Search"
+        onclick="location.href='search.html'"
+      />
+    </nav>
+  </body>
+</html>
