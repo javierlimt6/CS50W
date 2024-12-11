@@ -277,3 +277,8 @@ input[type="button"]:hover {
 #advanced-search-logo {
   margin-top: 125px;
 }
+
+#advanced-button {
+  background-color: #4285f4;
+  color: white;
+}
